@@ -2,15 +2,15 @@ import 'package:console_restaurant/menu_dish.dart';
 
 class RestaurantDatabase {
   List<MenuDish> dishes = [
-    MenuDish(id: 1, name: 'Classic Pizza', price: 400, currency: '₹'),
-    MenuDish(id: 2, name: 'Paneer Pizza', price: 550, currency: '₹'),
-    MenuDish(id: 3, name: 'Veggie Pizza', price: 450, currency: '₹'),
-    MenuDish(id: 4, name: 'Mushroom Pizza', price: 450, currency: '₹'),
-    MenuDish(id: 5, name: 'Chilli Pizza', price: 600, currency: '₹'),
-    MenuDish(id: 6, name: 'French Fries', price: 200, currency: '₹'),
-    MenuDish(id: 7, name: 'Nachos', price: 250, currency: '₹'),
-    MenuDish(id: 8, name: 'Juice', price: 300, currency: '₹'),
-    MenuDish(id: 9, name: 'Iced Tea', price: 350, currency: '₹'),
+    MenuDish(id: 1, name: 'Sada Dosa', price: 60, currency: '₹'),
+    MenuDish(id: 2, name: 'Masala Dosa', price: 100, currency: '₹'),
+    MenuDish(id: 3, name: 'Idli', price: 70, currency: '₹'),
+    MenuDish(id: 4, name: 'Thatte Idli', price: 100, currency: '₹'),
+    MenuDish(id: 5, name: 'Khatta Dhokla', price: 40, currency: '₹'),
+    MenuDish(id: 6, name: 'Khaman Dhokla', price: 45, currency: '₹'),
+    MenuDish(id: 7, name: 'Chutney', price: 20, currency: '₹'),
+    MenuDish(id: 8, name: 'Sambhar', price: 30, currency: '₹'),
+    MenuDish(id: 9, name: 'Ojas Vita', price: 50, currency: '₹'),
   ];
 
   void addToCart(int dishId, int quantity) {

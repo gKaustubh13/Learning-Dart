@@ -47,7 +47,7 @@ void printMenu(RestaurantDatabase database) {
 }
 
 void printRestaurantHeader() {
-  print('Welcome to JKB restaurant 😊'.red());
+  print('Welcome to JKB Khana Khazana 😊'.red());
   print('\n');
   print('Please select the dish you want to order...'.blue());
 }
